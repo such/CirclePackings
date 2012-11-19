@@ -3,6 +3,7 @@
 #make clean
 qmake
 sudo rm -Rf CirclePackings.app
+rm -f CirclePackings.dmg
 make -j8
 sudo macdeployqt CirclePackings.app
 mkdir -p  CirclePackings.app/Contents/plugins/imageformats
